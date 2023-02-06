@@ -1,0 +1,56 @@
+.logo {
+    width: 301px;
+    height: 106px;
+    top: 170px;
+    left: 155px;
+    position: relative;
+    text-align: center;
+}
+
+.text {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: normal;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    top: 140px;
+    left: 180px;
+    position: relative;
+}
+
+body {
+    background-color:#f0f2f5;
+}
+
+.email {
+    margin:14px;
+} 
+
+.password {
+    margin: 14px;
+}
+
+.first, .second {
+    width: 364px;
+    height: 51px;
+    border-radius: 6px;
+    left: 730px;
+    top:-100px;
+    position: relative;
+    border: 1px solid #dddfe2;
+}
+
+.buttonn {
+    margin: 14px;
+}
+
+.button {
+    width: 369px;
+    height: 51px;
+    border-radius: 6px;
+    left: 730px;
+    top:-100px;
+    position: relative;
+    background-color:#1877f2;
+    color: white;
+    border: 1px solid #dddfe2;
+}
