@@ -1,56 +1,118 @@
-.logo {
-    width: 301px;
-    height: 106px;
-    top: 170px;
-    left: 155px;
-    position: relative;
-    text-align: center;
-}
-
-.text {
-    font-size: 28px;
-    line-height: 28px;
-    font-weight: normal;
-    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    top: 140px;
-    left: 180px;
-    position: relative;
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
 }
 
 body {
-    background-color:#f0f2f5;
+    width: 100%;
+    background-color: #f0f2f5;
 }
 
-.email {
-    margin:14px;
-} 
-
-.password {
-    margin: 14px;
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    width: 380px;
+    height: 320px;
+    border-radius: 8px;
+    padding: 10px 5px 20px 5px;
+    margin: -10vh 750px;
+    box-shadow: 5px 5px 6px -7px;
 }
 
-.first, .second {
-    width: 364px;
-    height: 51px;
-    border-radius: 6px;
-    left: 730px;
-    top:-100px;
-    position: relative;
-    border: 1px solid #dddfe2;
+input[type='text'], input[type='password'] {
+    display: flex;
+    margin-left: 11px;
+    background-color: #fff;
+    border: 1.5px solid rgb(200, 200, 200);
+    border-radius: 8px;
+    width: 85%;
+    padding: 14px 16px;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
 }
 
-.buttonn {
-    margin: 14px;
+input[type='text']:hover, input[type='password']:hover {
+    border: 1.5px solid blue;
 }
 
-.button {
-    width: 369px;
-    height: 51px;
-    border-radius: 6px;
-    left: 730px;
-    top:-100px;
-    position: relative;
-    background-color:#1877f2;
+button {
+    background-color: #1877f2;
     color: white;
-    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 14px 0;
+    width: 94%;
+    margin-left: 11px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.fgtpsd {
+    width: 200px;
+    color: #1877f2;
+    padding-left: 90px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-left: 45px;
+}
+
+.line {
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+
+.creating {
+    width: 58%;
+    font-size: 14px;
+    background-color: #42b72a;
+    text-align: center;
+    margin-left: 80px;
+    font-size: 17px;
+}
+
+.create-page p {
+    width: 400px;
+    position: relative;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 110px 715px;
+    font-size: 13px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.create-page p a {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.f-logo {
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 30vh;
+}
+
+.f-logo img {
+    width: 301px;
+}
+
+p {
+    color: #1c1e21;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    word-spacing: 3px;
+    margin-left: 30px;
+    font-family: serif;
 }
