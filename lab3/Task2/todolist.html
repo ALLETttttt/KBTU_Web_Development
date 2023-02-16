@@ -8,21 +8,29 @@
     <link rel="stylesheet" href="todoliststyle.css">
 </head>
 <body>
-    <script src="todolist.js"></script>
     <div class="todolist">
         ToDoList
     </div>
-    <h4>
-        ToDo List
-    </h4>
+    <div class="myUL">
+        <h4>
+            ToDo List
+        </h4>
 
-    <div class="newtask">
-        <input class="myInput" type="text" placeholder="New Task">
-        <button onclick="newElement()" class="addBtn">Add</button>
+        <div class="wrap">
+
+            <input id="input" type="text" placeholder="New Task">
+
+
+            <button id="btn">Add</button>
+
+
+            <ul id="result"></ul>
+
+        </div>
+
     </div>
 
-    <ul class="list">
-        <li class="checked"></li>
-    </ul>
+    <script src="todolist.js"></script>
+
 </body>
 </html>
