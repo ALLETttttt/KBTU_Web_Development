@@ -1,0 +1,49 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid blueviolet;
+    border-radius: 11px;
+    margin-top: 25px;
+    padding-bottom: 14px;
+    margin-left: 10px;
+    margin-right: 69px;
+    text-align: center;
+}
+
+
+
+img{
+    width: 150px;
+    object-fit: cover;
+}
+
+.description {
+    padding: 0px 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+button {
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.rating {
+    font-weight: bold;
+    font-size: 18px;
+    font-style: oblique;
+    color:rgb(63, 218, 24);
+}
+
+.price {
+    font-size: 24px;
+    color:red;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at 
