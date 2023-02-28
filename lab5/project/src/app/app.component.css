@@ -1,0 +1,38 @@
+h3 {
+    position: relative;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    padding-bottom: 20px;
+}
+
+.body {
+    display: flex;
+    justify-content:space-around;
+}
+
+.phone-container, .computer-container, .shoes-container, .tv-container {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 270px;
+    text-align: center;
+    border: 3px solid rgb(18, 197, 30);
+    align-items: center;
+    border-radius: 13px;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.phone-container img, .computer-container img, .shoes-container img, .tv-container img {
+    object-fit: cover;
+    width: 200px;
+}
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
