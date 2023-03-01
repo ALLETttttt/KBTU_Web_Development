@@ -1,9 +1,17 @@
+h2 {
+    margin-left: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(28, 64, 223);
+    font-size: 24px;
+}
+
 
 .main {
     background-color: rgb(224, 232, 232);
     float: left;
     width: 300px;
-    height: 600px;
+    height: 650px;
     align-items: center;
     border: 1px solid blueviolet;
     border-radius: 11px;
@@ -34,7 +42,13 @@
     height: 130px;
 }
 
+.probutton {
+    height: 60px;
+}
 
+.delete-button button {
+    background-color: red;
+} 
 
 img{
     width: 150px;
@@ -47,10 +61,21 @@ img{
     font-weight: bold;
 }
 
+.like {
+    position: relative;
+    margin-left: 220px;
+    margin-top: -40px;
+    cursor: pointer;
+}
+
 button {
     font-style: italic;
     font-weight: bold;
     border-radius: 5px;
+}
+
+.like-button:focus {
+    color: red;
 }
 
 .rating {
