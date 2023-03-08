@@ -1,0 +1,11 @@
+p{
+    display: inline-block;
+  }
+  img{
+    display : block;
+  }
+  button{
+    margin-left : 50px;
+    background-color: blue;
+    color: white;
+  }

@@ -1,0 +1,13 @@
+button{
+    background-color: white;
+    color : blue;
+    margin-left : 50px;
+  }
+  input{
+    margin-left : 10px;
+  }
+  .id1{
+    background-color: green;
+    color : white;
+    margin-left : 0px;
+  }
