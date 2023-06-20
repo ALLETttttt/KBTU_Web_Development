@@ -13,7 +13,7 @@ This course is designed for developers who want to learn how to develop quality 
 applications using the smart techniques and tools offered by Angular and Django. Besides this,
 students will learn how to solve real world problems from industry.
 
-In this projects used and have a knowledge about: 
+In this projects i used and have a knowledge about: 
 
   ● HTML(5), CSS(3), JavaScript
   
